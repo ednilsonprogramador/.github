@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+}
+header {
+  margin: 44px 0 144px 76px;
+}
+
+section {
+  display: inline-block;
+  margin-left: 10px;
+
+}
+.coracao {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 10px;
+  display: inline-block;
+}
+.loja {
+  font-weight: 600;
+  font-size:  50px;
+  line-height: 30px;
+  color: #212121;
+  margin: 20px 0 80px 20px;
+  display: inline-block;
+  filter: drop-shadow(0px 8px 4px);
+}
+
+.links-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #989d9c;
+  cursor: pointer;
+  margin-right: 23px;
+  display: inline-block;
+}
+.pesquisa {
+  display: inline-block;
+  margin-left: 150px;
+  padding: 10px;
+  
+}
+.botao-pesquisa {
+  background: #665ae1;
+  border-radius: 20.5px;
+  width: 100px;
+  height: 35px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+}
+.faixa{
+  width: 100%;
+  height: 700px;
+  background-image: url("../img/Fundo.jpg");
+  background-size: cover;        /* cobre a tela inteira */
+  background-position: center;   /* centraliza */
+  background-repeat: no-repeat;  /* não repete */
+ 
+  display: flex;
+  flex-direction: column
+
+}
+
+h2{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 71px;
+    color: #ffffff;
+    margin: 150px 0px 30px 150px ;
+}
+
+p{
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 35px;
+    color: #ffffff;
+    margin: 30px 0px 70px 150px ;
+    width: 500px;
+  }
+
+  .links-nav a{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+   justify-content: center;
+    text-decoration: none;
+    background: #665ae1;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+  }
+ h3{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 44px;
+    color: #212121;
+    margin: 150px 0px 20px 900px ;
+    
+
+  }
+  .produto-destaque {
+  display: flex;
+  gap: 40px;              /* espaço entre os itens */
+  justify-content: center;
+  margin-top: 150px;
+
+ 
+
+}
+
+.card-produto {
+  width: 158px;
+  height: 100px; 
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500; 
+  font-size: 18px;
+  line-height: 22px;
+
+}
+.card-produto span {
+    font-weight: 700; 
+    font-size: 18px;
+    line-height: 22px;
+    color: #665ae1;
+    margin: 100px 0 200px 0;
+}
+
+.links-footer-section {
+  display: inline-block;
+  margin-left: 85px;
+  margin-top: 350px;
+  margin-left: 200  px;
+
+}
+.links-footer {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989d9c;
+    cursor: pointer;
+    margin-right: 23px;
+    text-decoration: none;
+       
+}
