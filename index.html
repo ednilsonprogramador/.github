@@ -4,115 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Loja Ame-se </title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Loja Ame-se  </title>
-
 </head>
-          
+
 <body>
 
-    <header>
-              
-        <div class="logo-header">
+    <header id="inicio">
 
+        <div class="logo-header">
             <h1 class="loja">Ame-se</h1>
             <img src="https://img.freepik.com/psd-gratuitas/coracao-de-vidro-purpura-um-simbolo-de-amor-e-afeto_191095-81986.jpg"
-                alt="Coração de Vidro Púrpura Um Símbolo de Amor e Afeto" class="coracao" height="50" width="50" />
+                alt="Coração de Vidro Púrpura Um Símbolo de Amor e Afeto" class="coracao" />
 
         </div>
-
-        <a class="links-header" href="inicio.html" target="_blank">Inicio</a>
-        <a class="links-header" href="catalogo.html" target="_blank">Catalogo</a>
-        <a class="links-header" href="blog.html" target="_blank">Blog</a>
-        <a class="links-header" href="sobre.html" target="_blank">Sobre</a>
-        <a class="links-header" href="contato.html" target="_blank">Contato</a>
-
-        <input class="pesquisa" placeholder="Pesquisar produtos...">
-        <button class="botao-pesquisa">Buscar</button>
+            
+            <nav class="menu">
+                <a href="#inicio">Início</a>
+                <a href="https://shopee.com.br/" target="_blank">Catalogo</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+                <a href="https://www.instagram.com/_ame.se._/" target="_blank">Instagram</a>
+            </nav>
+            
+        <div class="busca">
+            <label for="pesquisa" class="sr-only">Pesquisar produtos</label>
+            <input id="pesquisa" type="text" placeholder="Pesquisar produtos...">
+            <button>Buscar</button>
+        </div>
 
     </header>
 
-    <nav>
+
+    <main>
 
         <section class="faixa">
 
-            <h2>Bem-vindo à Loja Ame-se!</h2>
+            <h2 class="saud">Bem-vindo à Loja Ame-se!</h2>
+          
             <p>Aqui você encontra produtos que celebram o amor próprio
                 e o cuidado consigo mesmo. <br>Explore nossa coleção
                 e descubra itens que inspiram autoestima e bem-estar.</p>
+        </section> 
+        
+        <section id="sobre" class="sobre">
 
-            <div class="links-nav">
-                <a href="" target="_blank">Catalogo</a>
-                <a href="" target="_blank">Ler Dicas</a>
+            <h2 class="nos">Sobre nós</h2>
+            <div class="quem-somos">
+                <p>
+                    Somos um projeto criado com o propósito de unir tecnologia, praticidade e cuidado em um só lugar.
+                    Nosso objetivo é oferecer uma experiência simples, acessível e funcional.
+                </p>
 
+                <p>
+                    Estamos em constante evolução, aprendendo e aprimorando cada detalhe para entregar sempre o melhor.
+                    Seja bem-vindo(a) e fique à vontade para explorar.
+                </p>
             </div>
+        </section>
 
-    </nav>
+    </main>
 
-    </section>
+    <footer>
 
-    <h3>Produtos em Destaque</h3>
+        <nav class="links-footer">
+            <a href="#inicio">Início</a>
+            <a href="https://shopee.com.br/" target="_blank">Catálogo</a>
+            <a href="#blog">Blog</a>
 
-    <div class="produto-destaque">
+        </nav>
 
-        <a href="https://www.amazon.com.br/Camiseta-Masculina-Algod%C3%A3o-Premium-B%C3%A1sicas/dp/B0D4C7ZFRH/ref=asc_df_B0D4C7ZFRH?mcid=21e0d6d0bcb231899f16f3387e0d112e&tag=googleshopp00-20&linkCode=df0&hvadid=713646718495&hvpos=&hvnetw=g&hvrand=6084580009207051491&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100051&hvtargid=pla-2387960975994&language=pt_BR&gad_source=1&th=1&psc=1"
-            target="_blank" class="card-produto">
+        <p>© 2026 AME-SE. Todos os direitos reservados.</p>
 
-            <img alt="" height="157" width="158"
-                src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRZ4vhJZ4aJF7DFspVYh4Fa1la0GcIjodbdnj2pL2UCYJkzIYWL0Y8sLk910olcBudskIIkFuUaFszJidhODMYox4eLB1TXPFDhonmSLoc1TMowbpVOqJNymUJg4Tke1NjuImyI5uakda8&amp;usqp=CAc"
-                height="157" width="158">
-
-            <br>Kit 2 Camisetas Masculinas
-            <br> Básica Lisa Confortável Casual e Academia <br>
-            <span>R$ 79,90</span>
-        </a>
-
-        <br>
-
-        <a href="https://www.amazon.com.br/Feminino-Mangas-Premium-contrastante-Vermelho/dp/B0DS6PDH5J/ref=sr_1_3_sspa?dib=eyJ2IjoiMSJ9.G8XV6E3Vu33hjyRunzsH7m4sGbHTbop13cpL-tkag7eQjrGtDhr6dAR3oYWS7LbnqeQED2pBIsDcokxqLm2SOToU_pjOB-lCHEn3p-JQrLqpknJKphipts4n0HSvupmRpqXehXvj0A09sIvSo05kDHrhSmoyiGwXZsj93pOEUA1R6GsaTiE8UxYoHGbweyuxnI8gdddyCaJqLEblPKUyWehY4OhvjguP5uLKdP9NYclZ55iKL5rBAM--kBS5dI1ksdtwD5rLYiGxyBZ1bh99dHu-Rp8VlfylAIIZ37nKzho.TWJU9mywVI6dmemvET5ZafGtPxQGHz3Eu3iXDrUUe2M&dib_tag=se&keywords=roupa&qid=1769272354&sr=8-3-spons&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1"
-            target="_blank" class="card-produto">
-
-            <img src="https://m.media-amazon.com/images/I/61BmR+ag8UL._AC_UL320_.jpg"
-                alt="Robe Cetim toque de Seda Feminino Mangas Longas Premium e viés contrastante" height="157"
-                width="158">
-
-            <br>Robe Cetim toque de Seda Feminino
-            <br> Mangas Longas Premium e viés contrastante <br>
-            <span>R$ 89,90</span>
-        </a>
-
-        <a href="https://www.amazon.com.br/BLUSAS-BUMBUM-TECIDO-POLIAMIDA-RET%C3%89M/dp/B09XJGCG88/ref=sxin_13_pa_sp_search_thematic_sspa?content-id=amzn1.sym.7d2cb2dd-fe35-477b-a1de-d6ea95cca871%3Aamzn1.sym.7d2cb2dd-fe35-477b-a1de-d6ea95cca871&cv_ct_cx=roupa&keywords=roupa&pd_rd_i=B09XJGCG88&pd_rd_r=a1c99c48-2cfe-407b-a376-1f3ecfcf8970&pd_rd_w=Kdckv&pd_rd_wg=Zuu2c&pf_rd_p=7d2cb2dd-fe35-477b-a1de-d6ea95cca871&pf_rd_r=G466SY87JS9AFZWV25V8&qid=1769272354&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-4-fc613efb-89a5-4ecc-a266-4feb7aba5db9-spons&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d&aref=XolF0Fcx4N&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1"
-            target="_blank" class="card-produto">
-
-            <img src="https://m.media-amazon.com/images/I/615792k8ArL._AC_SX569_.jpg"
-                alt="KIT 3 BLUSAS DRY FIT TAPA BUMBUM TECIDO POLIAMIDA RETÉM SUOR" height="157" width="158">
-
-            <br>Blusa Cropped Canelada Manga Longa Decote Quadrado Feminina
-            <br> Bumbum Tecido Poliamida Retém
-            <span>R$ 79,90</span>
-        </a>
-</div>
-        </section >
-
-        <footer>
-            <section class="links-footer-section">
-                <a class="links-footer" href="inicio.html" target="_blank">Inicio</a>
-                <a class="links-footer" href="catalogo.html" target="_blank">Catalogo</a>
-                <a class="links-footer" href="blog.html" target="_blank">Blog</a>
-                <a class="links-footer" href="sobre.html" target="_blank">Sobre</a>
-                <a class="links-footer" href="contato.html" target="_blank">Contato</a>
-                <a class="links-footer" href="instagram.html" target="_blank">Instagram</a>
-
-            </section>
-           
-            <p class="direitos-autorais">© 2024 Loja Ame-se. Todos os direitos reservados.</p>
-        </footer>
+    </footer>
 
 
-</body>
 
 </html>
